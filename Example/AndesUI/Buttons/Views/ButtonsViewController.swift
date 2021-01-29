@@ -1,7 +1,3 @@
-//
-//  ButtonsViewController.swift
-//  AndesUI_Example
-//
 //  Created by Santiago Lazzari on 19/12/2019.
 //  Copyright © 2019 MercadoLibre. All rights reserved.
 //
@@ -91,15 +87,20 @@ class ButtonsViewController: UIViewController {
 
     func setupSizes() {
         // Large medium small
-        largeWithIconSpinner.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .left))
-        largeLoudLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .left))
-        largeLoudRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .right))
-
-        largeQuietLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .left))
-        largeQuietRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .right))
-
-        largeTransparentLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .left))
-        largeTransparentRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: #imageLiteral(resourceName: "clip"), orientation: .right))
+        largeWithIconSpinner.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .left))
+        largeLoudLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .left))
+        largeLoudRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .right))
+        largeQuietLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .left))
+        largeQuietRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .right))
+        largeTransparentLeftImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon: 
+             #imageLiteral(resourceName: "clip"), orientation: .left))
+        largeTransparentRightImageAndesButton.setLargeSizeWithIcon(AndesButtonIcon(icon:
+             #imageLiteral(resourceName: "clip"), orientation: .right))
 
     }
 
